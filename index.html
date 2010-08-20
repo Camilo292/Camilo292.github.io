@@ -12,11 +12,6 @@
       src="https://kit.fontawesome.com/2c36e9b7b1.js"
       crossorigin="anonymous"
     ></script>
-    <link
-      rel="stylesheet"
-      href="./desktop_styles/mobile.css"
-      media="screen and(max-width: 1023px)"
-    />
     <link rel="stylesheet" href="./desktop_styles/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
@@ -39,22 +34,26 @@
         <a href="#">
           <p>camilo nore</p>
         </a>
-      </div>    
       </div>
       <nav class="nav-bar">
         <div class="openMenu" id="openMenu">
           <i class="fa fa-bars"></i>
         </div>
         <ul class="nav_links" id="nav_links">
-            <li ><a href="#about">acerca de </a></li>
-            <li ><a href="#proyects">proyectos</a></li>
-            <li ><a href="#contact">contacto</a></li>
+          <li><a href="#">inicio </a></li>
+          <li><a href="#about">acerca de</a></li>
+          <li><a href="#proyects">proyectos</a></li>
+          <li><a href="#contact">contacto</a></li>
           <div class="closeMenu" id="closeMenu">
             <i class="fa fa-times"></i>
           </div>
           <span class="icons">
-            <a href="https://twitter.com/NoreCamilo22"><i class="fab fa-twitter"> </i></a>
-            <a href="https://github.com/Camilo292"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/NoreCamilo22"
+              ><i class="fab fa-twitter"> </i
+            ></a>
+            <a href="https://github.com/Camilo292"
+              ><i class="fab fa-github"></i
+            ></a>
           </span>
         </ul>
       </nav>
@@ -96,25 +95,57 @@
           consectetur adipisicing elit.
         </p>
       </section>
-      <section id="contact" class="contacto">
+      <section class="contacto" id="contact">
         <h2>Contacto</h2>
         <hr />
-        <p>
-          <ul>
-            <li class="twitter"><a href="https://twitter.com/NoreCamilo22">@NoreCamilo22</a></li>
-            <li class="github"><a href="https://github.com/Camilo292">GitHub</a></li>
-            <li class="linkedin"><a href="https://www.linkedin.com/in/camilo-nore-8897661bb/">Linkedin</a></li>
-          </ul>
-        </p>
+        <div class="main_form">
+          <div class="form_name">
+            <label for="name">Nombre: </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              autocomplete="name"
+              required
+              placeholder="Ingresa tu nombre"
+            />
+          </div>
+          <div class="form_email">
+            <label for="email">Email: </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              autocomplete="email"
+              required
+              placeholder="Ingresa tu email"
+            />
+          </div>
+          <div class="form_message">
+            <label for="message">Mensaje: </label>
+            <textarea
+              name="message"
+              id="message"
+              required
+              placeholder="Ingresa tu mensaje"
+            >
+            </textarea>
+          </div>
+          <input class="button" id="send_button" type="submit" />
+        </div>
         <div class="donaciones">
-          <p>Si deseas hacerle una donacion a el creador:</p>
+          <p>Si deseas hacerle una donacion a el autor:</p>
           <form
             class="donate"
             action="https://www.paypal.com/donate"
             method="post"
             target="_top"
           >
-            <input type="hidden" name="hosted_button_id" value="MBTER3YKNK5T6" />
+            <input
+              type="hidden"
+              name="hosted_button_id"
+              value="MBTER3YKNK5T6"
+            />
             <input
               type="image"
               src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
@@ -133,8 +164,22 @@
           </form>
         </div>
       </section>
-      <!-- <a href="#" class="button">Aceptar</a> -->
     </main>
+    <footer>
+      <ul class="footer_items">
+        <li class="twitter">
+          <a href="https://twitter.com/NoreCamilo22">Twitter</a>
+        </li>
+        <li class="github">
+          <a href="https://github.com/Camilo292">GitHub</a>
+        </li>
+        <li class="linkedin">
+          <a href="https://www.linkedin.com/in/camilo-nore-8897661bb/"
+            >Linkedin</a
+          >
+        </li>
+      </ul>
+    </footer>
     <script type="text/JavaScript" src="./main.js"></script>
   </body>
 </html>
