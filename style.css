@@ -13,7 +13,8 @@ ul {
   font-size: 2.5rem;
   background-color: rgb(32, 30, 30);
   height: auto;
-  border: 1px white solid;s
+  border: 1px white solid;
+  border-radius: 10px;
 }
 .navigation-item {
   display: inline-block;
