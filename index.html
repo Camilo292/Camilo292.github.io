@@ -3,66 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Layout</title>
+    <link
+      rel="stylesheet"
+      href="./mobile.css"
+      media="screen and(min-width:425px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./tablet.css"
+      media="screen and(min-width:768px)"
+    />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/flavicon.svg"
+      type="image/x-icon"
+    />
+    <title>Mi blog</title>
   </head>
   <body>
     <header>
-      <nav class="navigation-var">
+      <nav>
         <ul>
-          <li class="navigation-item"><a href="#">Home</a></li>
-          <li class="navigation-item"><a href="#">Instructors</a></li>
-          <li class="navigation-item"><a href="#">Courses</a></li>
-          <li class="navigation-item"><a href="#">Blogs</a></li>
+          <li><a href="./index.html">Inicio </a></li>
+          <li><a href="#">Proyectos</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><button class="button" id="theme-button">Tema</button></li>
         </ul>
       </nav>
     </header>
-    <main class="main">
-      <p class="main-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-        impedit sint ratione labore, eum voluptates nam temporibus reprehenderit
-        eos veniam vitae sequi suscipit, sunt iusto repellat quas officiis,
-        obcaecati alias! Accusamus nemo ipsum repellat libero doloribus eveniet
-        ipsam enim omnis incidunt, aliquid assumenda distinctio odit ratione
-        fugit hic? Unde esse optio quaerat eaque nobis maxime repudiandae, illum
-        obcaecati placeat nihil! Fuga cupiditate incidunt nulla, quaerat sed cum
-        ipsum doloremque ullam, odit quam qui nam beatae expedita nemo.
-        Voluptate illo, cumque, tempora explicabo veritatis exercitationem
-        corporis praesentium, ad ipsa eaque cupiditate. Temporibus alias
-        expedita quia, sunt sed, nostrum molestias nam perferendis ut nisi vel
-        odit facere fugit ducimus! Delectus quod quidem autem dicta id?
-        Pariatur, neque eveniet. Pariatur cum accusamus aut? Quos laboriosam cum
-        reprehenderit officia quae omnis hic voluptates laudantium aspernatur.
-        Saepe accusantium cumque necessitatibus hic odit aspernatur veniam ipsam
-        iste laboriosam amet. Blanditiis at dignissimos tempora. Cumque, alias
-        aut. Ipsam quod sunt molestiae dolorem deserunt, autem eos illum animi
-        accusamus, neque eveniet molestias doloribus nesciunt incidunt laborum
-        vel! Sapiente nesciunt nihil at nobis voluptatibus reprehenderit fuga
-        officia tempora aperiam. Mollitia quo numquam dignissimos ratione quam
-        dolor nisi id porro laudantium assumenda enim vitae omnis maxime, modi,
-        error ut amet accusantium quae quibusdam! Ab voluptate quas
-        consequuntur? Magni, ducimus minima! Est maxime doloremque perferendis
-        vel fuga repellendus, aut sit officia veniam dicta minima eius neque
-        maiores suscipit dolore saepe consequatur exercitationem cum ullam.
-        Veniam dolorum ab incidunt obcaecati eveniet vel?
-      </p>
-      <aside class="main-aside">
-        <div class="aside-parts">
-          <div class="aside">Aside 1</div>
-          <div class="aside">Aside 2</div>
-          <div class="aside">Aside 3</div>
-          <div class="aside">Aside 4</div>
-          <div class="aside">Aside 5</div>
-        </div>
-      </aside>
+    <main>
+      <section class="presentation">
+        <h1>Mi Blog</h1>
+        <img src="./images/man.jpg" alt="Camilo Nore" />
+        <p class="subtitle">Camilo Nore</p>
+      </section>
+      <section class="main-content">
+        <h2>Título de la sección</h2>
+        <hr />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+          consectetur <a href="#">maxime quisquam</a> nobis eum odio dolorum sit
+          enim accusamus vero cupiditate assumenda tenetur corrupti amet quasi,
+          exercitationem natus harum placeat.
+        </p>
+      </section>
+      <a href="#" class="button">Aceptar</a>
     </main>
-    <footer class="footer">
-      <ul>
-        <li class="footer-item"><a href="#">Facebook</a></li>
-        <li class="footer-item"><a href="#">Twitter</a></li>
-        <li class="footer-item"><a href="#">Instagram</a></li>
-        <li class="footer-item"><a href="#">Correo</a></li>
-      </ul>
-    </footer>
+    <script type="text/JavaScript" src="./main.js"></script>
   </body>
 </html>
