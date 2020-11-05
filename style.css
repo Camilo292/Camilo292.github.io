@@ -126,6 +126,54 @@ hr {
   color: var(--light-text-color);
 }
 
+.button_switch {
+  background: #343d5b;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  outline: none;
+}
+
+.button_switch::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: #f1f1f1;
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+}
+
+.dark-theme .button_switch::after {
+  left: unset;
+  right: 0;
+  border-radius: 100px;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.dark-theme .button_switch {
+  background-color: orange;
+}
+
+.button_switch span {
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  display: block;
+  background: none;
+  color: #fff;
+}
+
 .button {
   background: var(--main-color);
   color: white;
