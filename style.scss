@@ -33,10 +33,12 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 header {
-  padding: 1.5rem 2rem;
-  border-radius: 0.5rem;
-  margin: 2rem 0;
+  padding: 0.5rem 1.5rem;
+  // border-radius: 0.9rem;
+  position: fixed;
+  left: 0;
   display: flex;
+  width: 100%;
   justify-content: flex-end;
   align-items: center;
   background: var(--container-color);
@@ -184,6 +186,12 @@ hr {
   border: none;
   cursor: pointer;
 }
+.space {
+  background-color: transparent;
+  width: 100%;
+  height: 13rem;
+}
+
 .main-content,
 .proyectos,
 .contacto {
@@ -201,4 +209,7 @@ hr {
   padding: 1.5rem;
   border-radius: 0.5rem;
   margin-bottom: 2rem;
+}
+.donate {
+  align-content: center;
 }
