@@ -112,7 +112,7 @@ h4,
 h5,
 h6 {
   color: var(--title-color);
-  font-size: 2.5rem;
+  font-size: 5rem;
 }
 
 p {
@@ -237,10 +237,52 @@ hr {
   background: var(--container-color);
   -webkit-box-shadow: var(--container-shadow);
           box-shadow: var(--container-shadow);
-  padding: 1.5rem;
+  padding: 8rem 1.5rem;
   border-radius: 0.5rem;
   margin-bottom: 2rem;
-  height: 85vh;
+  height: 100vh;
+}
+
+.contacto li {
+  list-style: none;
+}
+
+.contacto li a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: var(--text-color);
+}
+
+.contacto li a:hover {
+  color: #0088a9;
+}
+
+.donaciones,
+.twitter,
+.github,
+.gmail {
+  padding-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.twitter::before {
+  content: url(./images/twitter.png);
+  padding-right: 1rem;
+}
+
+.github::before {
+  content: url(./images/github.png);
+  padding-right: 1rem;
+}
+
+.gmail::before {
+  content: url(./images/gmail.png);
+  padding-right: 1rem;
 }
 
 .subtitle {
@@ -255,7 +297,11 @@ hr {
 }
 
 .donate {
-  -ms-flex-line-pack: center;
-      align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
