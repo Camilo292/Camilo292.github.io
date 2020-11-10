@@ -368,6 +368,10 @@ body.dark-theme {
     display: inline-block;
     padding: 12px;
   }
+  .icons a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
   .nav_name {
     cursor: pointer;
     margin-right: auto;
