@@ -211,8 +211,7 @@ body.dark-theme {
     height: 5rem;
   }
   .main-content,
-  .proyectos,
-  .contacto {
+  .proyectos {
     background: var(--container-color);
     -webkit-box-shadow: var(--container-shadow);
             box-shadow: var(--container-shadow);
@@ -220,6 +219,15 @@ body.dark-theme {
     border-radius: 0.5rem;
     margin-bottom: 2rem;
     height: 100vh;
+  }
+  .contacto {
+    background: var(--container-color);
+    -webkit-box-shadow: var(--container-shadow);
+            box-shadow: var(--container-shadow);
+    padding: 8rem 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    height: 100%;
   }
   .contacto li {
     list-style: none;
@@ -245,15 +253,15 @@ body.dark-theme {
             justify-content: center;
   }
   .twitter::before {
-    content: url(./images/twitter.png);
+    content: url(../images/twitter.png);
     padding-right: 1rem;
   }
   .github::before {
-    content: url(./images/github.png);
+    content: url(../images/github.png);
     padding-right: 1rem;
   }
   .gmail::before {
-    content: url(./images/gmail.png);
+    content: url(../images/gmail.png);
     padding-right: 1rem;
   }
   .subtitle {
@@ -535,7 +543,7 @@ body.dark-theme {
     padding: 8rem 1.5rem;
     border-radius: 0.5rem;
     margin-bottom: 2rem;
-    height: 100vh;
+    height: 100%;
   }
   .contacto li {
     list-style: none;
@@ -548,28 +556,28 @@ body.dark-theme {
   .contacto li a:hover {
     color: #0088a9;
   }
-  .donaciones,
+  .donaciones {
+    padding-top: 5%;
+    padding-left: 8%;
+    display: block;
+  }
   .twitter,
   .github,
   .gmail {
     padding-top: 5%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    padding-left: 25%;
+    display: block;
   }
   .twitter::before {
-    content: url(./images/twitter.png);
+    content: url(../images/twitter.png);
     padding-right: 1rem;
   }
   .github::before {
-    content: url(./images/github.png);
+    content: url(../images/github.png);
     padding-right: 1rem;
   }
   .gmail::before {
-    content: url(./images/gmail.png);
+    content: url(../images/gmail.png);
     padding-right: 1rem;
   }
   .subtitle {
