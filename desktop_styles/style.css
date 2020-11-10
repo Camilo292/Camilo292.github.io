@@ -63,6 +63,11 @@ body.dark-theme {
     font-family: "Shadows Into Light", cursive;
     display: inline-block;
   }
+  .nav-bar .openMenu i,
+  .icons,
+  .closeMenu {
+    display: none;
+  }
   .nav_name p {
     font-size: 3.5rem;
     padding: 0.5rem;
