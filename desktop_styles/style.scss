@@ -227,7 +227,7 @@ body.dark-theme {
   .donaciones,
   .twitter,
   .github,
-  .gmail {
+  .linkedin {
     padding-top: 5%;
     display: flex;
     justify-content: center;
@@ -240,8 +240,8 @@ body.dark-theme {
     content: url(../images/github.png);
     padding-right: 1rem;
   }
-  .gmail::before {
-    content: url(../images/gmail.png);
+  .linkedin::before {
+    content: url(../images/linkedin.png);
     padding-right: 1rem;
   }
   .subtitle {
@@ -512,7 +512,7 @@ body.dark-theme {
   }
   .twitter,
   .github,
-  .gmail {
+  .linkedin {
     padding-top: 5%;
     padding-left: 25%;
     display: block;
@@ -525,8 +525,8 @@ body.dark-theme {
     content: url(../images/github.png);
     padding-right: 1rem;
   }
-  .gmail::before {
-    content: url(../images/gmail.png);
+  .linkedin::before {
+    content: url(../images/linkedin.png);
     padding-right: 1rem;
   }
   .subtitle {
