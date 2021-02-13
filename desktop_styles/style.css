@@ -1,9 +1,9 @@
 :root {
   --main-color: #1083d6;
   --title-color: #2a3b47;
-  --text-color: #697477;
+  --text-color: #232627;
   --light-text-color: #a0a7ac;
-  --border-color: #e2eaee;
+  --border-color: #c2d2da;
   --container-color: #ffffff;
   --body-color: #f6f6fa;
   --container-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
@@ -34,7 +34,6 @@ body.dark-theme {
   body {
     background: var(--body-color);
     color: var(--text-color);
-    padding: 3rem;
     font-family: "Quicksand", sans-serif;
   }
   header {
@@ -115,10 +114,7 @@ body.dark-theme {
   }
   .presentation {
     text-align: center;
-    background: var(--container-color);
-    -webkit-box-shadow: var(--container-shadow);
-            box-shadow: var(--container-shadow);
-    padding: 1.5rem;
+    padding: 4.5rem;
     border-radius: 0.5rem;
     margin-bottom: 2rem;
   }
@@ -217,22 +213,22 @@ body.dark-theme {
   }
   .main-content,
   .proyectos {
+    margin: 3rem;
     background: var(--container-color);
     -webkit-box-shadow: var(--container-shadow);
             box-shadow: var(--container-shadow);
-    padding: 8rem 1.5rem;
+    padding: 2rem 1.5rem;
     border-radius: 0.5rem;
     margin-bottom: 2rem;
-    height: 100vh;
   }
   .contacto {
+    margin: 3rem;
     background: var(--container-color);
     -webkit-box-shadow: var(--container-shadow);
             box-shadow: var(--container-shadow);
-    padding: 8rem 1.5rem;
+    padding: 2rem 1.5rem;
     border-radius: 0.5rem;
     margin-bottom: 2rem;
-    height: 100%;
   }
   .form_email,
   .form_message,
@@ -269,9 +265,10 @@ body.dark-theme {
     background: var(--container-color);
     -webkit-box-shadow: var(--container-shadow);
             box-shadow: var(--container-shadow);
+    position: relative;
+    top: 3rem;
     width: 100%;
-    border-radius: 0.4rem;
-    padding: 3rem;
+    padding: 2rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -288,8 +285,14 @@ body.dark-theme {
     font-size: 2.5rem;
     color: var(--text-color);
   }
-  .footer_items li a:hover {
-    color: #0088a9;
+  .footer_items .gmail a:hover {
+    color: #a13628;
+  }
+  .footer_items .github a:hover {
+    color: #2c469e;
+  }
+  .footer_items .linkedin a:hover {
+    color: #334f9c;
   }
   .donaciones {
     padding-top: 5%;
@@ -300,8 +303,8 @@ body.dark-theme {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .twitter::before {
-    content: url(../images/twitter.png);
+  .gmail::before {
+    content: url(../images/gmail.png);
     padding-right: 1rem;
   }
   .github::before {
@@ -409,7 +412,7 @@ body.dark-theme {
   nav .openMenu {
     display: block;
   }
-  .fa-twitter:hover {
+  .fa-gmail:hover {
     color: #569af3;
   }
   .fa-github:hover {
@@ -484,9 +487,6 @@ body.dark-theme {
   }
   .presentation {
     text-align: center;
-    background: var(--container-color);
-    -webkit-box-shadow: var(--container-shadow);
-            box-shadow: var(--container-shadow);
     padding: 1.5rem;
     border-radius: 0.5rem;
     margin-bottom: 2rem;
@@ -589,7 +589,7 @@ body.dark-theme {
     background: var(--container-color);
     -webkit-box-shadow: var(--container-shadow);
             box-shadow: var(--container-shadow);
-    padding: 8rem 1.5rem;
+    padding: 1.5rem;
     border-radius: 0.5rem;
     margin-bottom: 2rem;
     height: 100%;
@@ -597,7 +597,7 @@ body.dark-theme {
   .form_email,
   .form_message,
   .form_name {
-    width: 70%;
+    width: 100%;
     text-align: center;
     display: block;
     padding: 3rem 4rem;
@@ -646,8 +646,8 @@ body.dark-theme {
   .footer_items li a:hover {
     color: #0088a9;
   }
-  .twitter::before {
-    content: url(../images/twitter.png);
+  .gmail::before {
+    content: url(../images/gmail.png);
     padding-right: 1rem;
   }
   .github::before {
