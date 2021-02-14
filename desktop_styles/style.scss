@@ -118,7 +118,7 @@ body.dark-theme {
 
   hr {
     border: none;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 0.1rem solid var(--border-color);
   }
 
   .subtitle {
@@ -135,8 +135,8 @@ body.dark-theme {
     &::after {
       content: "";
       display: block;
-      width: 30px;
-      height: 30px;
+      width: 23px;
+      height: 23px;
       position: absolute;
       background: #f1f1f1;
       top: 0;
@@ -316,7 +316,6 @@ body.dark-theme {
   body {
     background: var(--body-color);
     color: var(--text-color);
-    padding: 3rem;
     font-family: "Quicksand", sans-serif;
   }
   header {
@@ -365,8 +364,8 @@ body.dark-theme {
   nav .openMenu {
     display: block;
   }
-  .fa-gmail:hover {
-    color: rgb(86, 154, 243);
+  .fa-envelope:hover {
+    color: rgb(230, 8, 56);
   }
   .fa-github:hover {
     color: rgb(255, 123, 0);
@@ -470,8 +469,8 @@ body.dark-theme {
     &::after {
       content: "";
       display: block;
-      width: 30px;
-      height: 30px;
+      width: 23px;
+      height: 23px;
       position: absolute;
       background: #f1f1f1;
       top: 0;
@@ -509,6 +508,7 @@ body.dark-theme {
     transition: all 0.3s ease 0s;
     text-decoration: none;
     width: 60%;
+    margin-left: 20%;
   }
   .button:hover {
     background-color: rgba(0, 136, 169, 0.8);
@@ -532,19 +532,21 @@ body.dark-theme {
   .contacto {
     background: var(--container-color);
     box-shadow: var(--container-shadow);
-    padding: 1.5rem;
-    border-radius: 0.5rem;
+    padding: 0.8rem;
+    border-radius: 1rem;
     margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     height: 100%;
   }
   .form_email,
   .form_message,
   .form_name {
-    width: 100%;
+    width: 90%;
     text-align: center;
     display: block;
     padding: 3rem 4rem;
-    margin: 0.8rem 0;
+    margin: 0.8rem 2rem;
     border: 0.2rem solid var(--text-color);
     border-radius: 0.5rem;
   }
@@ -569,32 +571,25 @@ body.dark-theme {
     background: var(--container-color);
     box-shadow: var(--container-shadow);
     width: 100%;
-    border-radius: 0.4rem;
-    padding: 3rem;
+    padding-top: 2rem;
     display: flex;
     justify-content: center;
   }
   .footer_items li {
     list-style: none;
-    padding: 0 2rem;
+    padding: 0 3rem;
   }
   .footer_items li a {
     display: none;
   }
-  .footer_items li a:hover {
-    color: #0088a9;
-  }
   .gmail::before {
     content: url(../images/gmail.png);
-    padding-right: 1rem;
   }
   .github::before {
     content: url(../images/github.png);
-    padding-right: 1rem;
   }
   .linkedin::before {
     content: url(../images/linkedin.png);
-    padding-right: 1rem;
   }
   .subtitle {
     margin-top: -1rem;
@@ -609,5 +604,6 @@ body.dark-theme {
     display: flex;
     justify-content: center;
     max-height: 4rem;
+    margin-bottom: 5rem;
   }
 }
